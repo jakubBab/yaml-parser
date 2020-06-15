@@ -54,4 +54,4 @@ function textToArrayConverter($fileName): ?array
 }
 
 
-(textToArrayConverter("config.txt"));
+var_dump(textToArrayConverter("config.txt"));
